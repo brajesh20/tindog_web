@@ -1,0 +1,186 @@
+
+body {
+    text-align: center;
+}
+
+#logo {
+    font-size: 45px;
+    color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.head {
+    background-color: #fa1616;
+
+}
+
+.content {
+    padding: 5% 10%;
+
+}
+
+.feature {
+    text-align: left;
+}
+
+.nav-link {
+    font-size: 22px;
+
+}
+
+#caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: blanchedalmond;
+    width: 60%;
+    padding: 20px;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+#pic-1 {
+
+    margin-left: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+
+.responsive-but {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+/* middle section */
+
+.middle {
+    margin: 7% 13%;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.p-font {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 55%;
+    margin-left: 25%;
+    color: #303960;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.testimonial {
+    background-color: #ff5f40;
+    padding-top: 8%;
+    text-align: center;
+
+}
+
+.h2-font {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Montserrat';
+    color: white;
+    width: 65%;
+
+}
+
+em {
+    color: white;
+}
+
+.testimonial-pic1 {
+    border-radius: 70%;
+    margin-top: 5%;
+    width: 10%;
+}
+
+.social {
+    margin-top: 7%;
+
+}
+
+.logo1 {
+    width: 17%;
+    margin: 2% 5%;
+}
+
+#pricing {
+    padding: 8%;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3%;
+}
+
+#Contact{
+    margin: 150px 0px 70px;
+    font-family: 'Noto Serif', serif;
+}
+
+
+/* ********* RESPONSIVENESS************ */
+
+
+@media (max-width: 990px) {
+    #caption {
+        text-align: center;
+        width: 100%;
+    }
+
+    .heading{
+        text-align: center;
+    }
+
+    #pic-1 {
+        padding: 13%;
+        text-align: center;
+    }
+
+    .responsive-but{
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .download-tag{
+        margin-top: 12%;
+    }
+
+    .social-web{
+        margin-top: 13%;
+    }
+}
+
+
+/* *********** FOOTER *************** */
+
+.field input[type="text"], textarea, {
+    width: 40%;
+}
+
+.download-tag{
+    background-color: #d63447;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-web{
+    text-align: center;
+    padding: 6% 15% 3%;
+}
+
+.social-icon{
+    margin-left: 20px;
+}
